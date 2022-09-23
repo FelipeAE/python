@@ -1,0 +1,46 @@
+-------------------------------------
+Complejo
+-------------------------------------
++Real: Float
++Img: Float
+-------------------------------------
++Suma(N:Complejo): Complejo
++Resta(N:Complejo): Complejo
++Multiplicacion(N:Complejo): Complejo
++Division(N:Complejo): Complejo
++print(): Void
++getReal(): Float
++getImg(): Float
++setReal(N:Float): Void
++setImg(N:Float): Void
+-------------------------------------
+
+------------------------------------------------
+Rectangulo
+------------------------------------------------
++Punto1: (int,int)
++Punto2: (int,int)
++Punto3: (int,int)
++Punto4: (int,int)
+-------------------------------------------------
++CrecBa(Base:int, altura:int): Rectangulo
++Superficie(): int
++Desplazar(Direccion:string, Distancia:int): Void
+-------------------------------------------------
+
+-------------------------------------
+Linea
+-------------------------------------
++PuntoA: Punto
++PuntoB: Punto
+-------------------------------------
++GetA(): Punto
++GetB(): Punto
++SetA(A:Punto): Void
++SetB(B:Punto): Void
++MueveArriba(Distancia:int): Void
++MueveAbajo(Distancia:int): Void
++MueveIzquierda(Distancia:int): Void
++MueveDerecha(Distancia:int): Void
++Print(): Void
+-------------------------------------
